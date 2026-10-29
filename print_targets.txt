@@ -1,0 +1,8 @@
+SIDEFrobenius.indicial_factor
+SIDEFrobenius.indicial_root_unique
+SIDEFrobenius.indicial_reflect_fixed_iff
+SIDEFrobenius.indicial_forces_half
+SIDEFrobenius.g_two_three
+SIDEFrobenius.g_two_three_minimal
+SIDEFrobenius.S_squared
+SIDEFrobenius.ST_cubed
