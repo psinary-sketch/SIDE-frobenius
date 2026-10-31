@@ -1,6 +1,10 @@
 # SIDE-frobenius
 
-Lean 4 kernel — the Frobenius / {2,3} indicial **identification** of sigma = 1/2.
+SIDE-frobenius compiles, over Mathlib, statements in ℚ, ℤ and 2 × 2 integer matrices. r² + r + 1/4 = (r + 1/2)², so its only root is r = −1/2 (indicial_factor, indicial_root_unique); r ↦ −1 − r fixes only −1/2 (indicial_reflect_fixed_iff); g(a, b) = ab − a − b is 1 at (2, 3) and at least 2 at every other pair 2 ≤ a < b (g_two_three, g_two_three_minimal); and S² = −1, (ST)³ = −1 for S = [[0, −1], [1, 0]], T = [[1, 1], [0, 1]] (S_squared, ST_cubed). Its headline statement, at v0.1.0 = 2efe9f2:
+
+    theorem indicial_forces_half (r : ℚ) (h : r ^ 2 + r + 1 / 4 = 0) : -r = 1 / 2
+
+The polynomial enters as a polynomial: its reading as the indicial equation of H = xp near x = 0 is the Frobenius path's, and the Berry–Keating spectral realization is not asserted.
 
 J. York Seale — https://orcid.org/0009-0008-7993-0310
 
